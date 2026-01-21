@@ -142,8 +142,8 @@ a:hover {
 }
 /* Perkecil logo header */
 .site-logo img {
-  height: 50px;      /* UBAH ANGKA INI */
-  width: auto;
+  height: 45px !important;
+  max-width: 180px;
 }
 .site-logo {
   margin-bottom: 10px;
