@@ -154,5 +154,80 @@ a:hover {
   flex-direction: column;
   align-items: center;
 }
+/* ================================
+   HEADER & LOGO RESPONSIVE
+   ================================ */
+
+/* Header utama */
+.site-header {
+  display: flex;
+  flex-direction: column;   /* logo di atas menu */
+  align-items: center;
+  padding: 16px 0;
+}
+
+/* Logo */
+.site-logo img {
+  max-width: 240px;   /* DESKTOP */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Menu */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li a {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* ================================
+   TABLET
+   ================================ */
+@media (max-width: 1024px) {
+  .site-logo img {
+    max-width: 200px;
+  }
+}
+
+/* ================================
+   MOBILE
+   ================================ */
+@media (max-width: 768px) {
+  .site-logo img {
+    max-width: 160px;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .menu li a {
+    font-size: 14px;
+  }
+}
+
+/* ================================
+   EXTRA SAFETY (anti layar melebar)
+   ================================ */
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
