@@ -140,4 +140,19 @@ a:hover {
     gap: 12px;
   }
 }
+/* Perkecil logo header */
+.site-logo img {
+  height: 50px;      /* UBAH ANGKA INI */
+  width: auto;
+}
+.site-logo {
+  margin-bottom: 10px;
+}
+/* Pastikan posisi tetap rapi */
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
