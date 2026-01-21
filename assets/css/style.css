@@ -1,85 +1,58 @@
-/* =========================
-   Base Reset & Typography
-   ========================= */
+/* === RESET DASAR === */
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
-  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7;
   color: #1f2937;
-  background-color: #ffffff;
+  background: #f4f6f8;
 }
 
-/* =========================
-   Layout
-   ========================= */
-header,
-main,
-footer {
-  max-width: 900px;
+/* === CONTAINER MIRIP WORDPRESS === */
+.container {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 32px 20px;
+  background: #ffffff;
 }
 
-header {
-  padding-top: 48px;
-  padding-bottom: 32px;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-footer {
-  margin-top: 64px;
-  padding-top: 32px;
-  padding-bottom: 48px;
-  border-top: 1px solid #e5e7eb;
-  font-size: 14px;
-  color: #6b7280;
-}
-
-/* =========================
-   Headings
-   ========================= */
+/* === HEADINGS === */
 h1 {
-  font-size: 32px;
-  line-height: 1.3;
-  margin-bottom: 16px;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.6rem;
   margin-top: 48px;
   margin-bottom: 16px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-top: 32px;
   margin-bottom: 12px;
 }
 
-/* =========================
-   Text & Lists
-   ========================= */
+/* === PARAGRAPH & LIST === */
 p {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 ul {
   padding-left: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
-/* =========================
-   Links
-   ========================= */
+/* === LINK === */
 a {
   color: #2563eb;
   text-decoration: none;
@@ -89,32 +62,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* =========================
-   Sections
-   ========================= */
-section {
-  margin-bottom: 48px;
-}
-
-/* =========================
-   Responsive
-   ========================= */
-@media (max-width: 600px) {
-  body {
-    font-size: 15px;
-  }
-
-  h1 {
-    font-size: 26px;
-  }
-
-  h2 {
-    font-size: 21px;
-  }
-
-  header,
-  main,
-  footer {
-    padding: 20px;
-  }
+/* === FOOTER SIMPLE === */
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  padding: 24px 0;
 }
