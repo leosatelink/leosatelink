@@ -92,4 +92,52 @@ a:hover {
   color: #6b7280;
   padding: 24px 0 40px;
 }
+/* =========================
+   HEADER & MENU (WORDPRESS-LIKE)
+   ========================= */
+
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  font-size: 15px;
+  color: #374151;
+}
+
+.menu a:hover {
+  color: #2563eb;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
 
