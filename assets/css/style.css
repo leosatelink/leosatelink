@@ -1,13 +1,14 @@
-/* =========================
+/* =================================================
    RESET & BASE
-   ========================= */
+   ================================================= */
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.75;
   color: #1f2937;
@@ -21,9 +22,9 @@ img {
   display: block;
 }
 
-/* =========================
+/* =================================================
    LAYOUT
-   ========================= */
+   ================================================= */
 .container {
   max-width: 1200px;
   margin: 40px auto;
@@ -39,9 +40,9 @@ img {
   }
 }
 
-/* =========================
+/* =================================================
    TYPOGRAPHY
-   ========================= */
+   ================================================= */
 h1 {
   font-size: 2.25rem;
   line-height: 1.3;
@@ -73,9 +74,9 @@ li {
   margin-bottom: 10px;
 }
 
-/* =========================
+/* =================================================
    LINKS
-   ========================= */
+   ================================================= */
 a {
   color: #2563eb;
   text-decoration: none;
@@ -85,33 +86,5 @@ a:hover {
   text-decoration: underline;
 }
 
-/* =========================
-   HEADER & MENU (FINAL)
-   ========================= */
-.site-header {
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
-  padding: 16px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Logo */
-.site-logo img {
-  max-width: 240px;   /* DESKTOP */
-  margin-bottom: 12px;
-}
-
-/* Menu */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.menu a {
-  font-size: 15px;
-  font-weight: 500;
+/* =================================================
+   HEAD
