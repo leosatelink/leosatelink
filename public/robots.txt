@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://starlinkindonesia.my.id/sitemap.xml
